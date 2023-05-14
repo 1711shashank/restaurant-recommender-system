@@ -16,8 +16,19 @@
 
 }
 
+
 .loginPage-right{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15rem 0;
+}
+
+.loginPage-right > img{
+    width: 20rem;
+    margin-bottom: 5rem;
 }
 
 .loginForm{
@@ -31,35 +42,7 @@
     height: 2.5rem;
     margin-bottom: 2.5rem;
 }
-.loginForm > input{
-   border: 1px solid gray;
-   border-radius: 50rem;
-   padding: 2rem;
-}
 
-
-
-.text-center{
-	color:#e74c3c;;	
-	text-transform:uppercase;
-    font-size: 23px;
-    margin: -50px 0 80px 0;
-    display: block;
-    text-align: center;
-}
-.loginPage-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin: 15rem 0;
-
-}
-
-.loginPage-right > img{
-    width: 20rem;
-    margin-bottom: 5rem;
-}
 .loginPage-form{
     width: 100%;
     display: flex;
