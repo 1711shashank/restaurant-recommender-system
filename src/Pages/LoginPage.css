@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext');
+
+
+.loginPage{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.loginPage-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-color: #FFF1EF;
+
+}
+
+.loginPage-right{
+    width: 30%;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loginForm > *{
+    width: 60%;
+    height: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.loginForm > input{
+   border: 1px solid gray;
+   border-radius: 50rem;
+   padding: 2rem;
+}
+
+
+
+.text-center{
+	color:#e74c3c;;	
+	text-transform:uppercase;
+    font-size: 23px;
+    margin: -50px 0 80px 0;
+    display: block;
+    text-align: center;
+}
+.loginPage-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15rem 0;
+
+}
+
+.loginPage-right > img{
+    width: 20rem;
+    margin-bottom: 5rem;
+}
+.loginPage-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container {
+    width: 70%;
+    border-radius: 50rem;
+    border: 1px solid #e74c3c;
+    height: 2rem;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+}
+.input-container::placeholder {
+    color:  #ff9c91;
+    padding: 1rem;
+}
+
+button {
+    margin-bottom: 1.5rem;
+    border-radius: 50px;
+    background-color: #e74c3c;
+    padding: 1rem 2.5rem;
+    font-size: 1.6rem;
+    border: none;
+    color: white;
+    min-width: 15rem;
+}
