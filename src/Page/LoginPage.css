@@ -62,14 +62,17 @@
 }
 .input-container::placeholder {
     color:  #ff9c91;
-    padding: 1rem;
+}
+.input-container:focus {
+    outline: none;  
+    color:  #e74c3c;  
 }
 
-button {
+.login-button {
     margin-bottom: 1.5rem;
     border-radius: 50px;
     background-color: #e74c3c;
-    padding: 1rem 2.5rem;
+    padding: 1.5rem 2.5rem;
     font-size: 1.6rem;
     border: none;
     color: white;

@@ -1,0 +1,12 @@
+.RestaurantsByName{
+    width: 50%;
+}
+.search-bar{
+    width: 45% !important;
+    padding: 2.5rem !important;
+    margin-right: 3rem !important;
+}
+
+.search-button{
+    padding: 1.8rem 2rem !important;
+}

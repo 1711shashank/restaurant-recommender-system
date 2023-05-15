@@ -1,11 +1,7 @@
 import React from 'react'
-import './LoginPage.css'
 import LoginImg from '../Images/login-Img.gif';
 import CoffeeImg from '../Images/coffee-avatar.gif';
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
-import { Button } from '@mui/material';
-
+import './LoginPage.css'
 
 const LoginPage = () => {
     return (
@@ -20,7 +16,7 @@ const LoginPage = () => {
                     <form className='loginPage-form'>
                         <input class="input-container" type="email" placeholder='Email' required="" />
                         <input class="input-container" type="password" placeholder='Password' required="" />
-                        <button type="button" class="btn">Login</button>
+                        <button type="button" class="login-button">Login</button>
                     </form>
 
                 </div>
