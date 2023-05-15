@@ -15,7 +15,7 @@ const Home = () => {
         <>
             <div className='home'>
                 <div className='home-nav'>
-                    <p>Where To ?</p>
+                    <p>WhereTo?</p>
                     <div>
                         <p className='nav-login-button' onClick={handalClick}> Log In</p>
                     </div>

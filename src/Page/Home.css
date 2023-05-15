@@ -7,7 +7,7 @@
 .home-nav{
     display: flex;
     align-items: center;
-    /* background-color: #ffc2bb; */
+    background-color:#e74c3c;
     justify-content: space-between;
     min-height: 7rem;
     width: 100vw;
@@ -18,13 +18,16 @@
     padding: 0 5rem;
     font-size: 3rem;
     font-weight: 700;
+    color: #fff;
+
 }
 
 .nav-login-button{
     font-size: 2.5rem;
     font-weight: 600;
-    color: rgb(87, 87, 87);
+    color: #fff;
     padding-right: 20rem;
+    
 }
 
 
@@ -34,7 +37,7 @@
 
 .home-body-buttom{
     display: flex;
-    margin: 8rem 0;
+    margin-top: 8rem;
     justify-content: space-evenly;
     align-items: center;
 }

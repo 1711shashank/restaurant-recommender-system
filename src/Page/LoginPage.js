@@ -18,11 +18,8 @@ const LoginPage = () => {
                         <input class="input-container" type="password" placeholder='Password' required="" />
                         <button type="button" class="login-button">Login</button>
                     </form>
-
                 </div>
             </div>
-
-
         </>
     )
 }
